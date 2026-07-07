@@ -1,0 +1,25 @@
+{
+    "Domain": "http://103.236.77.248:521/",
+    "data": [
+        {
+            "name": "QQ音乐",
+            "path": "qq",
+            "scpath": "qqsc",
+            "gcpath": "qqgc",
+            "type": "on",
+            "get": "?url=$id",
+            "scget": "?key=$song_name&p=$pn",
+            "gcget": "?url=$id"
+        },
+        {
+            "name": "网易云音乐",
+            "path": "wy",
+            "scpath": "wysc",
+            "gcpath": "wygc",
+            "type": "on",
+            "get": "?url=$id",
+            "scget": "?key=$song_name&p=$pn",
+            "gcget": "?url=$id"
+        }
+    ]
+}
